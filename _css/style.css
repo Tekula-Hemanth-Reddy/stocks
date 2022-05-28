@@ -1,0 +1,49 @@
+span.field-icon {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+.active {
+    color: #0aaaff !important
+}
+
+@media screen and (min-width: 601px) {
+    .container{
+        margin-top: 8%;
+        background-color: aliceblue;
+    }
+    .form_body {
+        margin-top: 15%;
+    }
+    .profileForm {
+        margin-top: 7.5%;
+    }
+}
+@media screen and (max-width: 940px){
+    .r_text{
+        font-size: x-small;
+    }
+}
+@media screen and (max-width: 762px){
+    .r_text{
+        font-size: xx-small;
+    }
+}
+@media screen and (max-width: 710px){
+    .r_text{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 601px) {
+    .r_text{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 550px){
+    .r_text{
+        font-size: x-small;
+    }
+}
